@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Math Test</title>
+</head>
+<body>
+
+    <!-- Start of the math test -->
+    <h2>Online Math Test</h2>
+
+    <!-- User's name field -->
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+
+    <!-- Multiple choice questions -->
+    <h3>Multiple Choice Questions</h3>
+
+    <p>1. What is the sum of 8 + 5?</p>
+    <input type="radio" id="q1a" name="q1" value="10">
+    <label for="q1a">10</label><br>
+    <input type="radio" id="q1b" name="q1" value="12">
+    <label for="q1b">12</label><br>
+    <input type="radio" id="q1c" name="q1" value="13">
+    <label for="q1c">13</label><br>
+
+    <p>2. Solve for x in the equation: 3x = 15</p>
+    <input type="radio" id="q2a" name="q2" value="3">
+    <label for="q2a">3</label><br>
+    <input type="radio" id="q2b" name="q2" value="5">
+    <label for="q2b">5</label><br>
+    <input type="radio" id="q2c" name="q2" value="7">
+    <label for="q2c">7</label><br>
+
+    <p>3. What is the value of &pi; (Pi) approximately?</p>
+    <input type="radio" id="q3a" name="q3" value="3.14">
+    <label for="q3a">3.14</label><br>
+    <input type="radio" id="q3b" name="q3" value="2.72">
+    <label for="q3b">2.72</label><br>
+    <input type="radio" id="q3c" name="q3" value="1.62">
+    <label for="q3c">1.62</label><br>
+
+    <!-- Word problem -->
+    <h3>Word Problem</h3>
+    <p>Solve the following problem:</p>
+    <p>A rectangle has a length of 8 cm and a width of 5 cm. What is its area? (Hint: Use the formula Area = length &times; width)</p>
+    <label for="wordProblem">Your Answer:</label><br>
+    <textarea id="wordProblem" name="wordProblem" rows="4" cols="50"></textarea>
+    <br><br>
+
+    <!-- Submit button -->
+    <button type="submit">Submit</button>
+
+    <!-- End of the math test -->
+</body>
+</html>
